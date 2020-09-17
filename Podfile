@@ -7,6 +7,7 @@ target 'MapBoxExample' do
 
   # Pods for MapBoxExample
 	pod 'Mapbox-iOS-SDK', '6.2.0-beta.2'
+  pod 'Wormholy'
 
 
 end

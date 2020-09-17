@@ -202,6 +202,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/087AED5C-BBFC-380A-AFE9-B2DBE826AC44.bcsymbolmap"
   install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/D7839B4F-10A6-39C6-B799-47E064C5CC1A.bcsymbolmap"
   install_framework "${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Wormholy/Wormholy.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
@@ -209,6 +210,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/087AED5C-BBFC-380A-AFE9-B2DBE826AC44.bcsymbolmap"
   install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/D7839B4F-10A6-39C6-B799-47E064C5CC1A.bcsymbolmap"
   install_framework "${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Wormholy/Wormholy.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
