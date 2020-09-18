@@ -7,15 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0079CE992513C8C700526429 /* HafHashtad.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0079CE902513C8C700526429 /* HafHashtad.ttf */; };
-		0079CE9A2513C8C700526429 /* IRAN Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0079CE912513C8C700526429 /* IRAN Sans.ttf */; };
-		0079CE9B2513C8C700526429 /* IRANSans(FaNum)_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0079CE922513C8C700526429 /* IRANSans(FaNum)_Light.ttf */; };
-		0079CE9C2513C8C700526429 /* IRAN Sans Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0079CE932513C8C700526429 /* IRAN Sans Medium.ttf */; };
-		0079CE9D2513C8C700526429 /* IRAN Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0079CE942513C8C700526429 /* IRAN Sans Light.ttf */; };
-		0079CE9E2513C8C700526429 /* IRAN Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0079CE952513C8C700526429 /* IRAN Sans Bold.ttf */; };
-		0079CE9F2513C8C700526429 /* IRAN Sans UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0079CE962513C8C700526429 /* IRAN Sans UltraLight.ttf */; };
-		0079CEA02513C8C700526429 /* IRANSans(FaNum)_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0079CE972513C8C700526429 /* IRANSans(FaNum)_Bold.ttf */; };
-		0079CEA12513C8C700526429 /* HafHashtad2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0079CE982513C8C700526429 /* HafHashtad2.ttf */; };
+		1A7193022514F09A004E3462 /* IRANSans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A7193012514F04B004E3462 /* IRANSans Bold.ttf */; };
+		1A7193062514F09D004E3462 /* IRANSans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A7193002514F04A004E3462 /* IRANSans Regular.ttf */; };
 		3AA90485981B251C7DB6C31A /* Pods_MapBoxExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B060D1CFF30884EFC9C4000 /* Pods_MapBoxExample.framework */; };
 		F37F9A2325134AB2006BF63F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F9A2225134AB2006BF63F /* AppDelegate.swift */; };
 		F37F9A2725134AB2006BF63F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F9A2625134AB2006BF63F /* ViewController.swift */; };
@@ -45,16 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0079CE902513C8C700526429 /* HafHashtad.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HafHashtad.ttf; sourceTree = "<group>"; };
-		0079CE912513C8C700526429 /* IRAN Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans.ttf"; sourceTree = "<group>"; };
-		0079CE922513C8C700526429 /* IRANSans(FaNum)_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSans(FaNum)_Light.ttf"; sourceTree = "<group>"; };
-		0079CE932513C8C700526429 /* IRAN Sans Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans Medium.ttf"; sourceTree = "<group>"; };
-		0079CE942513C8C700526429 /* IRAN Sans Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans Light.ttf"; sourceTree = "<group>"; };
-		0079CE952513C8C700526429 /* IRAN Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans Bold.ttf"; sourceTree = "<group>"; };
-		0079CE962513C8C700526429 /* IRAN Sans UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRAN Sans UltraLight.ttf"; sourceTree = "<group>"; };
-		0079CE972513C8C700526429 /* IRANSans(FaNum)_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSans(FaNum)_Bold.ttf"; sourceTree = "<group>"; };
-		0079CE982513C8C700526429 /* HafHashtad2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HafHashtad2.ttf; sourceTree = "<group>"; };
 		0B060D1CFF30884EFC9C4000 /* Pods_MapBoxExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapBoxExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7193002514F04A004E3462 /* IRANSans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSans Regular.ttf"; sourceTree = "<group>"; };
+		1A7193012514F04B004E3462 /* IRANSans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSans Bold.ttf"; sourceTree = "<group>"; };
 		484F79F5738375B6705C3035 /* Pods-MapBoxExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapBoxExample.release.xcconfig"; path = "Target Support Files/Pods-MapBoxExample/Pods-MapBoxExample.release.xcconfig"; sourceTree = "<group>"; };
 		6F19135BF300BB9E96C763DE /* Pods-MapBoxExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapBoxExample.debug.xcconfig"; path = "Target Support Files/Pods-MapBoxExample/Pods-MapBoxExample.debug.xcconfig"; sourceTree = "<group>"; };
 		F37F9A1F25134AB2006BF63F /* MapBoxExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapBoxExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,15 +88,8 @@
 		0079CE8F2513C8C700526429 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				0079CE902513C8C700526429 /* HafHashtad.ttf */,
-				0079CE912513C8C700526429 /* IRAN Sans.ttf */,
-				0079CE922513C8C700526429 /* IRANSans(FaNum)_Light.ttf */,
-				0079CE932513C8C700526429 /* IRAN Sans Medium.ttf */,
-				0079CE942513C8C700526429 /* IRAN Sans Light.ttf */,
-				0079CE952513C8C700526429 /* IRAN Sans Bold.ttf */,
-				0079CE962513C8C700526429 /* IRAN Sans UltraLight.ttf */,
-				0079CE972513C8C700526429 /* IRANSans(FaNum)_Bold.ttf */,
-				0079CE982513C8C700526429 /* HafHashtad2.ttf */,
+				1A7193012514F04B004E3462 /* IRANSans Bold.ttf */,
+				1A7193002514F04A004E3462 /* IRANSans Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -292,19 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0079CE9F2513C8C700526429 /* IRAN Sans UltraLight.ttf in Resources */,
-				0079CE9E2513C8C700526429 /* IRAN Sans Bold.ttf in Resources */,
-				0079CE9C2513C8C700526429 /* IRAN Sans Medium.ttf in Resources */,
-				0079CEA02513C8C700526429 /* IRANSans(FaNum)_Bold.ttf in Resources */,
-				0079CE9D2513C8C700526429 /* IRAN Sans Light.ttf in Resources */,
 				F37F9A2F25134AB2006BF63F /* LaunchScreen.storyboard in Resources */,
-				0079CE992513C8C700526429 /* HafHashtad.ttf in Resources */,
-				0079CE9A2513C8C700526429 /* IRAN Sans.ttf in Resources */,
 				F37F9A2C25134AB2006BF63F /* Assets.xcassets in Resources */,
-				0079CE9B2513C8C700526429 /* IRANSans(FaNum)_Light.ttf in Resources */,
-				0079CEA12513C8C700526429 /* HafHashtad2.ttf in Resources */,
 				F3FCFC51251350BB00DAB545 /* SmappStyleFa.json in Resources */,
+				1A7193062514F09D004E3462 /* IRANSans Regular.ttf in Resources */,
 				F37F9A2A25134AB2006BF63F /* Main.storyboard in Resources */,
+				1A7193022514F09A004E3462 /* IRANSans Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,14 +522,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L9H5P3R5C2;
+				DEVELOPMENT_TEAM = 7FRCG5Y3PP;
 				INFOPLIST_FILE = MapBoxExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MapBoxExample.exampleeee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.HoomanDevelopmen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -571,14 +543,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L9H5P3R5C2;
+				DEVELOPMENT_TEAM = 7FRCG5Y3PP;
 				INFOPLIST_FILE = MapBoxExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MapBoxExample.exampleeee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.HoomanDevelopmen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -591,7 +563,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L9H5P3R5C2;
+				DEVELOPMENT_TEAM = 7FRCG5Y3PP;
 				INFOPLIST_FILE = MapBoxExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,7 +585,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L9H5P3R5C2;
+				DEVELOPMENT_TEAM = 7FRCG5Y3PP;
 				INFOPLIST_FILE = MapBoxExampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -634,7 +606,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L9H5P3R5C2;
+				DEVELOPMENT_TEAM = 7FRCG5Y3PP;
 				INFOPLIST_FILE = MapBoxExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -654,7 +626,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L9H5P3R5C2;
+				DEVELOPMENT_TEAM = 7FRCG5Y3PP;
 				INFOPLIST_FILE = MapBoxExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,11 +1,11 @@
 PODS:
-  - Mapbox-iOS-SDK (6.2.0-beta.2):
-    - MapboxMobileEvents (~> 0.10.2)
-  - MapboxMobileEvents (0.10.3)
+  - Mapbox-iOS-SDK (6.2.0):
+    - MapboxMobileEvents (~> 0.10.4)
+  - MapboxMobileEvents (0.10.4)
   - Wormholy (1.6.3)
 
 DEPENDENCIES:
-  - Mapbox-iOS-SDK (= 6.2.0-beta.2)
+  - Mapbox-iOS-SDK (~> 6.2.0)
   - Wormholy
 
 SPEC REPOS:
@@ -15,10 +15,10 @@ SPEC REPOS:
     - Wormholy
 
 SPEC CHECKSUMS:
-  Mapbox-iOS-SDK: 930668acc34f6a105458012682c93998d0224998
-  MapboxMobileEvents: e7ed269896eadbe7a756a16614955aa9db20a7a0
+  Mapbox-iOS-SDK: edea81429a4d56b944946d6abdf8152f3d1e5c5f
+  MapboxMobileEvents: 3dc72ea23e62d4afd64d3242f04686405b4a0e98
   Wormholy: bfc1c8679eefd0edd92638758e21c3961b1b3b50
 
-PODFILE CHECKSUM: 6b44fe3b06768591344acd00e67fd549e9c6c79d
+PODFILE CHECKSUM: 1711b73d327f287a6c93832ee7720f4720bffa46
 
 COCOAPODS: 1.9.3

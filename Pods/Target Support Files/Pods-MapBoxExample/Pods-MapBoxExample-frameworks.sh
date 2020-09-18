@@ -199,16 +199,16 @@ fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
   install_dsym "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM"
-  install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/087AED5C-BBFC-380A-AFE9-B2DBE826AC44.bcsymbolmap"
-  install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/D7839B4F-10A6-39C6-B799-47E064C5CC1A.bcsymbolmap"
+  install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/0DEC04F2-39CE-30A5-ABA3-C8A0C31461C2.bcsymbolmap"
+  install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/B952BDC9-D9B8-3E32-A512-2265616D60B1.bcsymbolmap"
   install_framework "${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Wormholy/Wormholy.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework"
   install_dsym "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM"
-  install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/087AED5C-BBFC-380A-AFE9-B2DBE826AC44.bcsymbolmap"
-  install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/D7839B4F-10A6-39C6-B799-47E064C5CC1A.bcsymbolmap"
+  install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/0DEC04F2-39CE-30A5-ABA3-C8A0C31461C2.bcsymbolmap"
+  install_bcsymbolmap "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/B952BDC9-D9B8-3E32-A512-2265616D60B1.bcsymbolmap"
   install_framework "${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Wormholy/Wormholy.framework"
 fi

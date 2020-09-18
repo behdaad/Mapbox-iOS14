@@ -9,166 +9,166 @@
 /* Begin PBXAggregateTarget section */
 		6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = DE661112FC7506F5A836D106198613A3 /* Build configuration list for PBXAggregateTarget "Mapbox-iOS-SDK" */;
+			buildConfigurationList = AA65CBFA2A2732AAB24EDD2834480AB8 /* Build configuration list for PBXAggregateTarget "Mapbox-iOS-SDK" */;
 			buildPhases = (
 			);
 			dependencies = (
-				2ACC5AB568865CE57B479E1126489039 /* PBXTargetDependency */,
+				4AFD188EE99AEA09B07FA0CDA548F713 /* PBXTargetDependency */,
 			);
 			name = "Mapbox-iOS-SDK";
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		00398402266671075C13C34FDCD68861 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA6061A73299D1169052709B783135 /* Section.swift */; };
-		03B521785319137EB73E2D58EB12770E /* MMECategoryLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B244A46C4A2CAED3FD91714BDEA5C /* MMECategoryLoader.m */; };
-		056FEA2059E6EAE466DBB146170F4858 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B2F7B6286768504589B3891E72F8A /* Storage.swift */; };
-		05D7ABFB3BA54510B04546AB98694A54 /* WHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6A6761BC9592E1E47A62174404C59 /* WHView.swift */; };
-		06D5ECBB8E13CC4BEDCCFE96523A42C4 /* MMENSURLSessionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E7689C51E7A88C9635D5A4CA3C804A84 /* MMENSURLSessionWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		078236551C81F58F3F46B6A3BCA8AA8A /* NSURLSessionConfiguration+Wormholy.h in Headers */ = {isa = PBXBuildFile; fileRef = C47CB8BE7D7CF510CE8E024FBED1D4E1 /* NSURLSessionConfiguration+Wormholy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0825042BA58E1F12210BA4F074A5EE91 /* MMEAPIClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8761DE3394E35A2B362506DFD561C33B /* MMEAPIClient_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		128CB9D4A424C89CFFD7821817A3E1BE /* MMEMetricsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B47B3CACF18EECACA9E35D209CC55F54 /* MMEMetricsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12B88C41295EB6AF91E7654BEBBECDAF /* MMEEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 95850F7214FB0553AACA75CDFEFC3AFB /* MMEEvent.m */; };
-		157F2C2CC60DA0F032FB71BA858A65FE /* MapboxMobileEvents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8263FD4745F9BFC019D40AB406E89E2C /* MapboxMobileEvents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18D60B06B9E2188373D4C11F173075B4 /* MapboxMobileEvents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 949885DAB64EEB516D1A12244CFFC519 /* MapboxMobileEvents-dummy.m */; };
-		1BCBCDD15B82CED106F4C2E223AC29D4 /* UIKit+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1B520DDB8FFC56270DB76D69759372 /* UIKit+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F043C11614302B1EA3921BFBAB0FAD7 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C145700BABEEC1F2FF815DFF2D1386 /* RequestModel.swift */; };
-		1F758DF78197B186C3D3DF23DDAF757F /* WHTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E38F986A987D1C4B330B065F7D7945 /* WHTableView.swift */; };
-		1FBCFEFCE836BC7E33B04F53ECAFB338 /* CLLocationManager+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2C29C14AA4EF71B13ADD0F05F00DDC /* CLLocationManager+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		207CD717476EDAD004CD430BE45319F6 /* ActionableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA252082625C4AF243E9D04B0D55E3 /* ActionableTableViewCell.swift */; };
-		243C6BBC9414ACD839B920D7C425313B /* MapboxMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B60BB6CD571C537E2F54B195093480 /* MapboxMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2865245E928B8F22120008B3A56CA017 /* MMEUIApplicationWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7084C5255ED31A987AC724CA962266FA /* MMEUIApplicationWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AD21DDD319D13E41C603AE60ED1479E /* MMEDependencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CD899896728A8B05CCF0C35995DC86 /* MMEDependencyManager.m */; };
-		3248C2BE5A0AD8305E670B97F3AFA6D9 /* CustomActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9C69937E41CD56E05F2ACA221CD7E /* CustomActivity.swift */; };
-		330CF23E24E1BF0928910BA19471DBA2 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0136BDBC8E60F60878EFE645D75B1EC4 /* TextTableViewCell.xib */; };
-		34A040D70CF5892E7B80E9D06CF04661 /* MMEUniqueIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5F4618082C5D8C103304C3F0BD55F /* MMEUniqueIdentifier.m */; };
-		3583290162D64D1AE5A620C2C237B1F2 /* MMETypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB394DBB6AAF4F5BA548A902EDA2C17 /* MMETypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38741F7BB64295C41D0A135929986880 /* NSBundle+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7165082B27B2A7CFA3601A40D9F5B9 /* NSBundle+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39852FCE6D799DE85725A225001E8ED5 /* MMEDispatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE315E1EF35B207AF7799F555ED6C2E3 /* MMEDispatchManager.m */; };
-		39ECE49E0950B0E97C025D2010354F61 /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77CC6331833373DA275C9E7A4C6FDC7 /* FileHandler.swift */; };
-		39F2954B12932B378ADECA104C3E6212 /* RequestResponseExportOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B335A7E9066FD6F6261B33386E3B28 /* RequestResponseExportOption.swift */; };
-		3DDCD6D09C0A17222A74962F6A3867E4 /* NSBundle+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233AA5AE40BAE3932F6678E8FCD615A /* NSBundle+MMEMobileEvents.m */; };
-		4003F7DC298A54ACBD54B01BA6132C25 /* WHString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF52604933926CC7C0A4AB2E7D8DADA /* WHString.swift */; };
-		4343094E47ECC54F18716AD966AC0429 /* RequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56B03D200087BF1FEED402E162D4F390 /* RequestCell.xib */; };
-		43CE26A07946EEC32622989EECC2A0CE /* Wormholy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0071A727236FAC6F52C706F55E611159 /* Wormholy.swift */; };
-		45D38644DD323AEC80188DFE621C18B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		50E4C42496BC7DC4CB1C980E6225CADA /* WHBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426C4CC755C7F7F37A69D0ECD3C33DD /* WHBundle.swift */; };
-		5B6BF5242C48EF3781F4C53F66C9976B /* NSURLSessionConfiguration+Wormholy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB83B2446BC6C461E79B31567D4583D /* NSURLSessionConfiguration+Wormholy.m */; };
-		5C76749E1B4C2BBF47743C525C8C217B /* MMEEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8891A4C1618357318100893311715A9 /* MMEEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E4DB5D2492EAD59B788483D2F9A9EB9 /* Wormholy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5AB8EADD4A79C763813DD13F9E8E37 /* Wormholy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		622E8A170D9EA67F39B56897A63FDCE1 /* MMENSURLSessionWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 147C6821A5954383C3AA3F18A1277BF4 /* MMENSURLSessionWrapper.m */; };
-		63DED26E6B53F683A07EB23E857C431E /* WHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAF3878C8FDAA4AB2C8C1DC2252EBA6 /* WHNavigationController.swift */; };
-		64E80B7BD2EDC24FC2889A73699376AC /* MMEEventLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A3469BC6A7B67902113BD308E278A2EA /* MMEEventLogger.m */; };
-		6790FB1632A159710D192AEE090D3239 /* MMEMetricsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4F8E2F1061C9963C18E92FE51EDD4A /* MMEMetricsManager.m */; };
-		68B539E35D484EB49991E6AC4984A415 /* NSUserDefaults+MMEConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF137FB4EEA2C8F4D94CA86A1995AEE /* NSUserDefaults+MMEConfiguration.m */; };
-		6AEF62950B3F7A456ED7C2229BBD1BF4 /* Wormholy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA92ED38E716E03D3FC758C810953B95 /* Wormholy.bundle */; };
-		71B13197A516EE3FEE5E8FD386728B47 /* MMEDispatchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C03AFB3BF34665ED7AFFC1958C5396 /* MMEDispatchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73CA9004F62FAECD7EECC2637A348B9A /* CustomHTTPProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E319314BEC1F3BED755D2799CDCF05F1 /* CustomHTTPProtocol.swift */; };
-		75C9459CB1D868E4ECFFC1F3A4A155DD /* BodyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6E1AB4FDFBF16F713532A4CC3FE4C /* BodyDetailViewController.swift */; };
-		76CFEE63A574D527C8A404A403CF3DCF /* MMEUIApplicationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 809084F2FA1F0442CB753EF1BC1AA305 /* MMEUIApplicationWrapper.m */; };
-		779BB62C526078F6EFF5C64337D18AF0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D122EAC35F36EE3F353F888F884C7C /* Colors.swift */; };
-		796965A91CE09BBBC41C2EBF498FD7E2 /* NSString+MMEVersions.h in Headers */ = {isa = PBXBuildFile; fileRef = 040FF2113A4BBE200EF2121EB32E9396 /* NSString+MMEVersions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A92F9510DD5161202A7F3193C308969 /* MMECategoryLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = C02C334D8F2988FA2F5BC1F3092E06EF /* MMECategoryLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FD1F53834C39FCCE615777EA891715A /* MMEDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E80E1CD3A3F5F0C33F000046BA1F5D1 /* MMEDate.m */; };
-		8325643DD10E5F1509B50DF00E67096B /* MMEDependencyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1F12EF5712A1D5991E66560CD72B63 /* MMEDependencyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84C9C4BE5B0FA19B866DC2EF4EB61916 /* WHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF28FF25CD45DE3851CECA2E14D426E /* WHBaseViewController.swift */; };
-		851DDB9023A92AC982057EC2287F4384 /* MMEMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF02CC0E94360E9E551C945C938F079 /* MMEMetrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87E2A32D57B0174D029AF3D1D0DB628A /* Pods-MapBoxExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAF362F83269DFD41A94A15B59E3C7F /* Pods-MapBoxExample-dummy.m */; };
-		884B9D7F8CBF873E07175607B41B1ED8 /* Postman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40064BF63545ABF8EFE137CA045D5677 /* Postman.swift */; };
-		8A7F0C7C73E66AB93E18F8C9C2AF67F0 /* CLLocationManager+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = AF27BCA839322430D30B5B1BD992B7C0 /* CLLocationManager+MMEMobileEvents.m */; };
-		8E34E72241B747897B5978EA6EF48332 /* MMELocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D0A46A517BC4549FA9E3B726BD05C9 /* MMELocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FD53E073DD4912CF7215207BC9B3416 /* NSData+MMEGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E16612CA2D35433AE461475AB7B1D1 /* NSData+MMEGZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9225A9F3718262A83BB2FAC513AEEFD5 /* ActionableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E7D3D5FBF66C62DD59DD4144BF4993 /* ActionableTableViewCell.xib */; };
-		937DAF2EC9B6139ACCACA71EB44961B7 /* ShareUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4AF9085795A4E514CCE505D494350 /* ShareUtils.swift */; };
-		99731C5CF7FFD3F0FFD6727101E97885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9E9A237C44BCB70ACD2836E0F0CB7890 /* MMEUniqueIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D559CF84F2F280280B4C0A5451F21 /* MMEUniqueIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FAA4008D28B106588079B9CBAF87637 /* SwiftySelfAwareHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D25E16D2DE87291CC7BC6CAC17661E /* SwiftySelfAwareHelper.swift */; };
-		A24B769BE52B4B8C31BB252CABD03FBA /* MMEEventsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 99471301F68A4281A39940B44DCC1C3D /* MMEEventsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3221CF130670DD9D10673641BFC0C86 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318C8886D69F93091286EF815EF0853 /* TextTableViewCell.swift */; };
-		A5FF13CBFB4E7ED8837C3E3A4ED1CED4 /* Wormholy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20295A3649AFBD65F7CFCDF6618FCFB2 /* Wormholy-dummy.m */; };
-		A61D460627D636359755760E2AF8679C /* WHCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB0C160384DA81B99B3EFF338126BC3 /* WHCollectionView.swift */; };
-		A77939093D7C273BDC8A2D1312266A22 /* UIKit+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = DADF3AACE123066BAF499F09703CFDFE /* UIKit+MMEMobileEvents.m */; };
-		A8ABA632F42B9C3985F2884FB02BF89C /* MMECertPin.m in Sources */ = {isa = PBXBuildFile; fileRef = C861CC67F34EE52ED24D3E8D74290AF5 /* MMECertPin.m */; };
-		AA55C40D1584F5BA0B3A6196DF08B5F7 /* MMEEventsManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA38BB73DD38FB69465519701FFE301 /* MMEEventsManager_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF805757E783824B995D27FC798BF75 /* CLLocation+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 148DD089479CF86E5AA9D0384290794C /* CLLocation+MMEMobileEvents.m */; };
-		AB3974EE97F7019FBE5438881091BC7A /* NSString+MMEVersions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3567750FAA8C4190E03B32B6C2DB1D /* NSString+MMEVersions.m */; };
-		B0661718BF1F20D5705D537C30D253BE /* MMECommonEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6743C14A373E536877BF52A1D2C6A763 /* MMECommonEventData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4A9AF482A39076D446F52CF32D73328 /* WHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA563DE7D2EC2244692B1E3745B7D94 /* WHLabel.swift */; };
-		B5480E9BA99AA8B48C8CACB8F7329ECD /* MMEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 346042AF4AE15023AFD0079DC9F9001C /* MMEConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B67B847DF4AC2DBF2B86C326E960D3D2 /* NSProcessInfo+SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 031709FD4BC4A21EBC591E11D529CBDD /* NSProcessInfo+SystemInfo.m */; };
-		B870F13AAEDA73A59EA2C38467FEECBF /* MMEAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 19419645ACCF3CC3A3C5635174B44CF9 /* MMEAPIClient.m */; };
-		B9DA9E144BE9964C3C9B98EB017D6E39 /* MMEDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E4BE48B7F20A7199C18EE4BD012E60 /* MMEDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCF120D39E86DD164E609C896A93CB2C /* WormholyMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AB681EA5F41A22E09D647BE04BC102B0 /* WormholyMethodSwizzling.m */; };
-		BE2ED8C1816CBA68965818AA05251B7A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0BD7FB9489819A2D3C9A1EB7211C70 /* Config.swift */; };
-		BF6299E1F137B79E0F51C12D63C7CAC5 /* MMECommonEventData.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E8A84CC9B04919DB44656C4298C00D /* MMECommonEventData.m */; };
-		C12BD69B116DAFF12C5278725B8958E6 /* RequestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EDEC312A90F69BDD01E6703BFECF8 /* RequestDetailViewController.swift */; };
-		C8BF0EF6438BEDC40255C02F8749D997 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC5006CB5BE60E7D31831B0D1A51A7 /* RequestsViewController.swift */; };
-		CCE7D70B209E3A309E4424FB74315674 /* WormholyMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = E5913D906A2E01603C43D4FD6310C13E /* WormholyMethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDA38047517DB202A4A95862878748E3 /* RequestTitleSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3184EA8FF11D1BFFC031547A1A8C790F /* RequestTitleSectionView.xib */; };
-		CFD3197037F2A63A5E46E01C1B8F90F0 /* NSProcessInfo+SystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C67F067DEAF26E1661A4500D01574FF5 /* NSProcessInfo+SystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D06F98F3C1AC1C7A99871725735C5F1F /* NSData+MMEGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333F97DA838BA4D645A172DEC45AAAE /* NSData+MMEGZIP.m */; };
-		D4E08D47F40769850BB13518EEA2A48A /* NSUserDefaults+MMEConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B4FFE1727F3F927D64726D97916027 /* NSUserDefaults+MMEConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D59E7F14400254E778330167EADC088B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D8D8C948980C054F97CC87C7C1A8669A /* MMEEventsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C51E0D5E9DB1DC413AB9563D8D431C0 /* MMEEventsManager.m */; };
-		D94A06D29D1B2462A12EBE4CAA31FB61 /* MMECertPin.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2F2C41AC9C63E01E635A18BE956985 /* MMECertPin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB4E40A0FB29B48EBE429DCFE41A56C6 /* logger.html in Resources */ = {isa = PBXBuildFile; fileRef = D5A8638BA649BB9589CB84CECD994BFD /* logger.html */; };
-		DB97429B37ADFCE0E84CE592879CCDE5 /* MMEReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 813D510EA6A0C26518A40E8C48B020E8 /* MMEReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE3C48A73A18112F53E5984D49445A82 /* CLLocation+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 50464F40435A1BE7C906D32E763D45C2 /* CLLocation+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2A0075BD1238BEE18C2D4900CB65D39 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C823976D2B17B9AFED38D0536367E6 /* RequestCell.swift */; };
-		E372694B779ACA350306CF09E89E1442 /* WHTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC5AC4387F3721208ED9F445915843 /* WHTextView.swift */; };
-		E373E37FCBD917D813C0F0011665C28F /* WormholyStarterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AF0F4F123703688C86D1ACC505C88C /* WormholyStarterEngine.m */; };
-		E86AE2329261361BDCC03223CC054CBD /* WHDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3FF6B9AD27E5ABB50A02BAF375E38 /* WHDate.swift */; };
-		E896B9B593FFADC1D3C092ED49A7A310 /* MMEConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBAE17B29028011DB13FFE6A96A8B83 /* MMEConstants.m */; };
-		E89D3D5A932B617B6F079B4D9BA05623 /* Wormholy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7A28FFB4C6E6FB7B2ECFF4794EB376 /* Wormholy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAC9A65362C4B74A410AE415081F5876 /* MMETimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3156C44CF595B6031AD8DD8651E38981 /* MMETimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDBCDD4B2821D2D795778385F8C732A0 /* Flow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824084A2EDCA8124FBD247C877A3218D /* Flow.storyboard */; };
-		EE459F6E6A8BE942A226743F4E39D00B /* NSUserDefaults+MMEConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C6AF749C839B6D1AD063F564283551F2 /* NSUserDefaults+MMEConfiguration_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F00F035838FD495E56A54D1A1DE0AF7D /* MMELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D399FAA3178F112B2A7F522BEB8AF03 /* MMELocationManager.m */; };
-		F121225FCBB82BAA07F5CC3ACFC2A91B /* MMEReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58249F988319F710A620CE939D02DD /* MMEReachability.m */; };
-		F2592CD3820BC3045F14676D0F7E22DE /* MMETimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76705A7D68B1723CAFDB9881C5AF600E /* MMETimerManager.m */; };
-		F62454E4C009C72EC30DFF27BE434968 /* MMEAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 65ACAB3F2CEE91BC4A8BAFDF9A4473D6 /* MMEAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F694C331E7DD3134ECA0459F84C6E867 /* MMEEventLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B96BA2065AD94D54BDEF0F07B830305 /* MMEEventLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F758C240DF41E6858DDD9B181E66D855 /* MMEMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A444122AEBB03C43A0964924FB785 /* MMEMetrics.m */; };
-		F9D74374BA37D17FE90C00A7AC50A097 /* RequestModelBeautifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A5CE09E51E5ECF330DC7CCCAFF31DB /* RequestModelBeautifier.swift */; };
-		FC087825CBC01F9D3625BFA91C313255 /* RequestTitleSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645BEB5B5B3ED70A7A0C74B509D4856 /* RequestTitleSectionView.swift */; };
-		FE2F20ADB23A80E8C43BDE52A5F18672 /* Pods-MapBoxExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7568880194DD0DFB2AD9903CB74A4795 /* Pods-MapBoxExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BC5249B3F5CB6CE92652B8D49013D4 /* RequestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EDEC312A90F69BDD01E6703BFECF8 /* RequestDetailViewController.swift */; };
+		038BCC16571186A625DE47B12BE9D0E8 /* NSBundle+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7165082B27B2A7CFA3601A40D9F5B9 /* NSBundle+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09EDC5141C39FCF40D01DAF31DB3D6F2 /* MMEEventsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C51E0D5E9DB1DC413AB9563D8D431C0 /* MMEEventsManager.m */; };
+		0C21529EEBA457F5A74B9C9728A89200 /* logger.html in Resources */ = {isa = PBXBuildFile; fileRef = D5A8638BA649BB9589CB84CECD994BFD /* logger.html */; };
+		0D7A22E09AC63AB59232F983E0345651 /* Wormholy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5AB8EADD4A79C763813DD13F9E8E37 /* Wormholy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1438661D882DEC5CE7018245A15E0983 /* UIKit+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1B520DDB8FFC56270DB76D69759372 /* UIKit+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15AF8E4DA4A95AB93D50D15EC737CAD9 /* MMECommonEventData.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E8A84CC9B04919DB44656C4298C00D /* MMECommonEventData.m */; };
+		17FA0E09C1AFF6A5E162C5EAF4E2F6E8 /* NSUserDefaults+MMEConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B4FFE1727F3F927D64726D97916027 /* NSUserDefaults+MMEConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BE43CC6305DC71D736CCC22E32C1B6B /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BC5006CB5BE60E7D31831B0D1A51A7 /* RequestsViewController.swift */; };
+		1C7A39DE5F54AAF2FF0C52FE1ED26104 /* RequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56B03D200087BF1FEED402E162D4F390 /* RequestCell.xib */; };
+		1DBAD28DC67BD5D9BA5EE0D3AEA7E8BD /* NSData+MMEGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6333F97DA838BA4D645A172DEC45AAAE /* NSData+MMEGZIP.m */; };
+		1E57A8DD026764379A92B842FFEBFD69 /* WHTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E38F986A987D1C4B330B065F7D7945 /* WHTableView.swift */; };
+		203EB7440DE80C314E9FDB3D46E8052C /* MMEMetricsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B47B3CACF18EECACA9E35D209CC55F54 /* MMEMetricsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21CA20D8D1F1FE4DBED8351C5FBC1C0C /* MMEUniqueIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = E40D559CF84F2F280280B4C0A5451F21 /* MMEUniqueIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21DEEF453B1F49AABBBFE6286D08C316 /* Pods-MapBoxExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7568880194DD0DFB2AD9903CB74A4795 /* Pods-MapBoxExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2561C63998804EFF251430F7D83E074B /* WHDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D3FF6B9AD27E5ABB50A02BAF375E38 /* WHDate.swift */; };
+		28229A69D2DEA352704512D0A846FDB9 /* CLLocation+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 148DD089479CF86E5AA9D0384290794C /* CLLocation+MMEMobileEvents.m */; };
+		2838D4CBF23F1AAA88BE0483AD52E603 /* MMEDependencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CD899896728A8B05CCF0C35995DC86 /* MMEDependencyManager.m */; };
+		28CEB4B09C493ED854EE47080DC73A07 /* CLLocationManager+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = AF27BCA839322430D30B5B1BD992B7C0 /* CLLocationManager+MMEMobileEvents.m */; };
+		2A4250C638EE302B2BB8FC35EAA53A47 /* MMEDispatchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C03AFB3BF34665ED7AFFC1958C5396 /* MMEDispatchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C17CCB9618AF589FB439E376F54D7E4 /* MMEEventLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A3469BC6A7B67902113BD308E278A2EA /* MMEEventLogger.m */; };
+		32D358C11D5E7072821CE62B0E2A8D7C /* Wormholy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA92ED38E716E03D3FC758C810953B95 /* Wormholy.bundle */; };
+		342A6DB90B627091C8FCAA15A40BDA1A /* MMEDispatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE315E1EF35B207AF7799F555ED6C2E3 /* MMEDispatchManager.m */; };
+		346A2612A0A455BEBDFB00C63D296053 /* MMEDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E4BE48B7F20A7199C18EE4BD012E60 /* MMEDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34CA2C555D8D14BDCB714F55D8BE9666 /* MMEReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58249F988319F710A620CE939D02DD /* MMEReachability.m */; };
+		35A98E7D97E1779F3FE3BFC80DFE8EFE /* MMEEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 95850F7214FB0553AACA75CDFEFC3AFB /* MMEEvent.m */; };
+		39E210D0D2A02BD59D5FE8E37C6C2BF1 /* MapboxMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B60BB6CD571C537E2F54B195093480 /* MapboxMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39EAD3769D79BE07D23F22D2FE553300 /* RequestModelBeautifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A5CE09E51E5ECF330DC7CCCAFF31DB /* RequestModelBeautifier.swift */; };
+		436D48FA0C6019B0A5048CAC9FA59F32 /* MMECertPin.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2F2C41AC9C63E01E635A18BE956985 /* MMECertPin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4502361B13917CFCDFF82F6D1C573AD4 /* CustomHTTPProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E319314BEC1F3BED755D2799CDCF05F1 /* CustomHTTPProtocol.swift */; };
+		4654FCA40A5BF568A8976B747731D53A /* MMEEventsManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA38BB73DD38FB69465519701FFE301 /* MMEEventsManager_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		474A1A011415029E2E6AD365561DD715 /* UIKit+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = DADF3AACE123066BAF499F09703CFDFE /* UIKit+MMEMobileEvents.m */; };
+		4A6B3C35353C8874A93DFBDACE7A87D1 /* NSBundle+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233AA5AE40BAE3932F6678E8FCD615A /* NSBundle+MMEMobileEvents.m */; };
+		4AC9A377D21413E1FA70203BEB00A229 /* MMEMetricsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4F8E2F1061C9963C18E92FE51EDD4A /* MMEMetricsManager.m */; };
+		4C0935905FA059C047B201DF4AC888F5 /* MMEDependencyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1F12EF5712A1D5991E66560CD72B63 /* MMEDependencyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BB59CE6A9BEC8EF6EDE58DE1CD2EB7 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0BD7FB9489819A2D3C9A1EB7211C70 /* Config.swift */; };
+		53458842E37436FA08AE11A5C13ABD8C /* MMENSURLSessionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E7689C51E7A88C9635D5A4CA3C804A84 /* MMENSURLSessionWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5497EE3D82F62D66A3D047BF4D27321C /* WHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA563DE7D2EC2244692B1E3745B7D94 /* WHLabel.swift */; };
+		55EDBF1FAAB70B3CE031119F9B0CB03D /* NSURLSessionConfiguration+Wormholy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB83B2446BC6C461E79B31567D4583D /* NSURLSessionConfiguration+Wormholy.m */; };
+		5A4913EF19C6FC82BC503EEF201F5D98 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0136BDBC8E60F60878EFE645D75B1EC4 /* TextTableViewCell.xib */; };
+		5AC0710137F4DBFB7D67F706B3DCDF81 /* WHBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E426C4CC755C7F7F37A69D0ECD3C33DD /* WHBundle.swift */; };
+		5D0D43BB29FBCDD22237A6BA9438B1B5 /* CLLocation+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 50464F40435A1BE7C906D32E763D45C2 /* CLLocation+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E4B0027B8715997BA31595366F91CD9 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C145700BABEEC1F2FF815DFF2D1386 /* RequestModel.swift */; };
+		5EC2458559FAC5EA1910AFDBE5AAED3E /* MMEDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E80E1CD3A3F5F0C33F000046BA1F5D1 /* MMEDate.m */; };
+		608C2E2C7996272D230C9A0B3FB203A1 /* WHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAF3878C8FDAA4AB2C8C1DC2252EBA6 /* WHNavigationController.swift */; };
+		6313B08F94D020A78F7F5FCA6AA795F6 /* Wormholy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7A28FFB4C6E6FB7B2ECFF4794EB376 /* Wormholy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64345DE0DD15565273D4C5B0DC5FA63D /* WHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6A6761BC9592E1E47A62174404C59 /* WHView.swift */; };
+		64A0CDA4530D07CB2F2309907AF7A0C7 /* WHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF28FF25CD45DE3851CECA2E14D426E /* WHBaseViewController.swift */; };
+		65E9E5F42454D620F4951C116B4CD2D4 /* RequestTitleSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3184EA8FF11D1BFFC031547A1A8C790F /* RequestTitleSectionView.xib */; };
+		66E8399640AFA23BD1737E34C004CF4E /* MMETimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3156C44CF595B6031AD8DD8651E38981 /* MMETimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6950E26D7E66E8E02CE77B584902C55F /* MMECategoryLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B244A46C4A2CAED3FD91714BDEA5C /* MMECategoryLoader.m */; };
+		6977F45CBA9EE9DE62015711CF893091 /* ActionableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E7D3D5FBF66C62DD59DD4144BF4993 /* ActionableTableViewCell.xib */; };
+		7213848EF03817D8181EB636CC7FE9B9 /* CLLocationManager+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2C29C14AA4EF71B13ADD0F05F00DDC /* CLLocationManager+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		736FCF104E1E9EA01D6D3F19551ECCC2 /* CustomActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9C69937E41CD56E05F2ACA221CD7E /* CustomActivity.swift */; };
+		73839C2245D69432E086925708B9096A /* MMEReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 813D510EA6A0C26518A40E8C48B020E8 /* MMEReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		741A5727E076A9AA23A47C11800C4CFE /* MMEEventLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B96BA2065AD94D54BDEF0F07B830305 /* MMEEventLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79977B424E6F817083461E4BFFBEE10E /* Wormholy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20295A3649AFBD65F7CFCDF6618FCFB2 /* Wormholy-dummy.m */; };
+		7CC63057858479B01A3016FA8729C99A /* MMEAPIClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8761DE3394E35A2B362506DFD561C33B /* MMEAPIClient_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DA4285386B611C24DCEBC4EBBE4978D /* WHTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC5AC4387F3721208ED9F445915843 /* WHTextView.swift */; };
+		7DC33EF8585EBA593112468B51D88870 /* SwiftySelfAwareHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D25E16D2DE87291CC7BC6CAC17661E /* SwiftySelfAwareHelper.swift */; };
+		7F418B495B58B1C0CE46D144DD690D5C /* ShareUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA4AF9085795A4E514CCE505D494350 /* ShareUtils.swift */; };
+		7F49C003B9F5B705A1C68B2D5AF69DCD /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C823976D2B17B9AFED38D0536367E6 /* RequestCell.swift */; };
+		825C907E0EE078BBCB0833FA273361F5 /* MMEUIApplicationWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7084C5255ED31A987AC724CA962266FA /* MMEUIApplicationWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839A0CC23E8699FF5BBC132D8E6AC2F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8733BF04857324C7DC346C7CC31396AF /* MMEAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 65ACAB3F2CEE91BC4A8BAFDF9A4473D6 /* MMEAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8977C5A2815FE530A8DDEE0A743BCBD3 /* Pods-MapBoxExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAF362F83269DFD41A94A15B59E3C7F /* Pods-MapBoxExample-dummy.m */; };
+		8DA932D3A7746268A0529467044F0BE7 /* ActionableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FA252082625C4AF243E9D04B0D55E3 /* ActionableTableViewCell.swift */; };
+		8E88A1CF57AD6624592F0BA7050C54C4 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318C8886D69F93091286EF815EF0853 /* TextTableViewCell.swift */; };
+		9056D4DBC8A824F823A3CCE004507D26 /* MMECertPin.m in Sources */ = {isa = PBXBuildFile; fileRef = C861CC67F34EE52ED24D3E8D74290AF5 /* MMECertPin.m */; };
+		93353EB74ECEA533C2C90DFA9E2FA1AF /* WormholyMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = E5913D906A2E01603C43D4FD6310C13E /* WormholyMethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93BFCC099A964DB4ECB6B2B792017726 /* MMELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D399FAA3178F112B2A7F522BEB8AF03 /* MMELocationManager.m */; };
+		93C0DE2E26A8135B8AA01AFF00352D77 /* Postman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40064BF63545ABF8EFE137CA045D5677 /* Postman.swift */; };
+		963EE3AA5AFC92459F902BF92F101AB9 /* MMETimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76705A7D68B1723CAFDB9881C5AF600E /* MMETimerManager.m */; };
+		9A110FEE7855F9E2FD18EA7B23DACFF8 /* NSUserDefaults+MMEConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C6AF749C839B6D1AD063F564283551F2 /* NSUserDefaults+MMEConfiguration_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2AB7DE9E054E2EE51D780F61284270D /* WHString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF52604933926CC7C0A4AB2E7D8DADA /* WHString.swift */; };
+		A2E4DE2B8C331EFDF70201E2C94486B1 /* NSData+MMEGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E16612CA2D35433AE461475AB7B1D1 /* NSData+MMEGZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C86087E8D9A12D8151D11E637AD7A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A4F34449FEBDAECBDA468F5E9B5DEC19 /* MapboxMobileEvents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8263FD4745F9BFC019D40AB406E89E2C /* MapboxMobileEvents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5602A4319A8135EDE171F380DA07D0C /* RequestTitleSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645BEB5B5B3ED70A7A0C74B509D4856 /* RequestTitleSectionView.swift */; };
+		A60DC416C26E18703CD34125E3984973 /* NSString+MMEVersions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3567750FAA8C4190E03B32B6C2DB1D /* NSString+MMEVersions.m */; };
+		A6F17978BCB55C4F83388E5BA9627E8E /* MMEUniqueIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5F4618082C5D8C103304C3F0BD55F /* MMEUniqueIdentifier.m */; };
+		AC762471A1B71251E53E29130760EBB9 /* MMELocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D0A46A517BC4549FA9E3B726BD05C9 /* MMELocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA6FEB177C206FFE151B22EE91594D5 /* MMEAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 19419645ACCF3CC3A3C5635174B44CF9 /* MMEAPIClient.m */; };
+		AEBC0C59E1B77CAD7C5677D53606A457 /* WormholyStarterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AF0F4F123703688C86D1ACC505C88C /* WormholyStarterEngine.m */; };
+		B3C8BA6A268FC0247ECF485000E903E2 /* MapboxMobileEvents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 949885DAB64EEB516D1A12244CFFC519 /* MapboxMobileEvents-dummy.m */; };
+		B3F411644D4CECB598474864E2F17C6D /* MMEMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 317A444122AEBB03C43A0964924FB785 /* MMEMetrics.m */; };
+		B42C0A5FC29585AA89B0AC99166458E0 /* NSProcessInfo+SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 031709FD4BC4A21EBC591E11D529CBDD /* NSProcessInfo+SystemInfo.m */; };
+		B954314483BBAC5CF026EECEA15D3774 /* RequestResponseExportOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B335A7E9066FD6F6261B33386E3B28 /* RequestResponseExportOption.swift */; };
+		B990E7D32A098EE1804907EF3B242A98 /* MMEUIApplicationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 809084F2FA1F0442CB753EF1BC1AA305 /* MMEUIApplicationWrapper.m */; };
+		B9A9D73A1A496339861CF6D0D1B37C55 /* NSProcessInfo+SystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C67F067DEAF26E1661A4500D01574FF5 /* NSProcessInfo+SystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD1D2AEA53DABCBA825D9AB7FE05DEBC /* MMEConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBAE17B29028011DB13FFE6A96A8B83 /* MMEConstants.m */; };
+		BE3A31B6C04FFABD04276890811F94AE /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA6061A73299D1169052709B783135 /* Section.swift */; };
+		C14594793F1BCBA13028A846AA286427 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D122EAC35F36EE3F353F888F884C7C /* Colors.swift */; };
+		C1EB73707E999475AEEFC01A90E546BB /* Flow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824084A2EDCA8124FBD247C877A3218D /* Flow.storyboard */; };
+		C26C1093CE718749411A0177B681B401 /* NSUserDefaults+MMEConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF137FB4EEA2C8F4D94CA86A1995AEE /* NSUserDefaults+MMEConfiguration.m */; };
+		C66CDEFF74946BD98EF6FF9613AB71A7 /* MMEEventsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 99471301F68A4281A39940B44DCC1C3D /* MMEEventsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C81F5D3D9A307F48161193A3397C8181 /* WHCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB0C160384DA81B99B3EFF338126BC3 /* WHCollectionView.swift */; };
+		CA388816021399FC9D5224084BDD7FB3 /* MMECategoryLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = C02C334D8F2988FA2F5BC1F3092E06EF /* MMECategoryLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2BF5CE7E4A3BD4B4953C45EF283A32E /* NSURLSessionConfiguration+Wormholy.h in Headers */ = {isa = PBXBuildFile; fileRef = C47CB8BE7D7CF510CE8E024FBED1D4E1 /* NSURLSessionConfiguration+Wormholy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2C5B88D20CBC955604AF235D867EFDD /* MMEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 346042AF4AE15023AFD0079DC9F9001C /* MMEConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D800BA39B4569AA978719FAA9E5683A6 /* NSString+MMEVersions.h in Headers */ = {isa = PBXBuildFile; fileRef = 040FF2113A4BBE200EF2121EB32E9396 /* NSString+MMEVersions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC54BBDB299DEB4E2676604BD9284F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DEAFC2402A0F5FDA58F22443F3EBC889 /* BodyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6E1AB4FDFBF16F713532A4CC3FE4C /* BodyDetailViewController.swift */; };
+		E0547EAB797D2D20A2ECF39C2D9E55A3 /* WormholyMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = AB681EA5F41A22E09D647BE04BC102B0 /* WormholyMethodSwizzling.m */; };
+		E16A82D969828BC0E627CEFF78F788B1 /* MMEEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B8891A4C1618357318100893311715A9 /* MMEEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2EFDC465F0D43501B45468FC25DDF8F /* MMENSURLSessionWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 147C6821A5954383C3AA3F18A1277BF4 /* MMENSURLSessionWrapper.m */; };
+		E36FE8DB583959D61E4504C290C90AE3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B2F7B6286768504589B3891E72F8A /* Storage.swift */; };
+		E387008B5C651A1A137A88A90C7036D3 /* MMETypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB394DBB6AAF4F5BA548A902EDA2C17 /* MMETypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E877B61F3D904B4457044015D6489F6F /* Wormholy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0071A727236FAC6F52C706F55E611159 /* Wormholy.swift */; };
+		EDFB960E0B68289F407ADE7CFE046CB9 /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77CC6331833373DA275C9E7A4C6FDC7 /* FileHandler.swift */; };
+		F439751A43ED3ABAC8B0BBDB654839A8 /* MMECommonEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6743C14A373E536877BF52A1D2C6A763 /* MMECommonEventData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFAF3B4BA983DA82FE9027466E5DE611 /* MMEMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF02CC0E94360E9E551C945C938F079 /* MMEMetrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A6292298F5386015C9608E7E3A39AC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93CEC7FFB57A497DE49471C5D9517C13;
-			remoteInfo = "Wormholy-Wormholy";
-		};
-		493EEE5E052D44E670D6DED67B42CD8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F20E041B920E9DD7BA087321915E730F;
-			remoteInfo = MapboxMobileEvents;
-		};
-		608EE8617FFD494B9586AAEB3E556B49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F20E041B920E9DD7BA087321915E730F;
-			remoteInfo = MapboxMobileEvents;
-		};
-		C7FD3F900D210426874546D75C34E840 /* PBXContainerItemProxy */ = {
+		19454DFE6024EF33EE91375BA132E3E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3E73ED39761329414C06DD4486C5058E;
 			remoteInfo = Wormholy;
 		};
-		DA42D6E0D45F4A2E1E4D3495E0A70B0B /* PBXContainerItemProxy */ = {
+		5E308E2DF90AA1188053D7E3B411657F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20E041B920E9DD7BA087321915E730F;
+			remoteInfo = MapboxMobileEvents;
+		};
+		6EBF52598FDC86360975694B61DD07FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93CEC7FFB57A497DE49471C5D9517C13;
+			remoteInfo = "Wormholy-Wormholy";
+		};
+		9D458DC729D5938B3DE97B1A10D98CF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6746AB6F4D992402B59D1651512EA19E;
 			remoteInfo = "Mapbox-iOS-SDK";
+		};
+		CD584712444C377DF8292A22AC81364D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20E041B920E9DD7BA087321915E730F;
+			remoteInfo = MapboxMobileEvents;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -311,34 +311,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		193ADCDBCB9CB3F69649A8357E352292 /* Frameworks */ = {
+		3F4571B7DE483E7861AAB1DFD37F141E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D59E7F14400254E778330167EADC088B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		245156428B5F1845B16C30D9DDE0FDA0 /* Frameworks */ = {
+		AE76E819DB8B0300684AE5878FA9E28D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99731C5CF7FFD3F0FFD6727101E97885 /* Foundation.framework in Frameworks */,
+				839A0CC23E8699FF5BBC132D8E6AC2F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		585B4AF05A610D7507FF3C07226DE9A4 /* Frameworks */ = {
+		CA66210773CF83F04FFA72F37E314361 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D38644DD323AEC80188DFE621C18B1 /* Foundation.framework in Frameworks */,
+				DBC54BBDB299DEB4E2676604BD9284F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B48F099EAD71F46FE88A4628279F56B1 /* Frameworks */ = {
+		F95C96200F8157223C91C5A0DA21C4A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C86087E8D9A12D8151D11E637AD7A6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,62 +616,62 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9BC1599F4F1071876B7AE455940A7C5C /* Headers */ = {
+		380A69BDFBCA512C9158B85AA1A8546B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE2F20ADB23A80E8C43BDE52A5F18672 /* Pods-MapBoxExample-umbrella.h in Headers */,
+				D2BF5CE7E4A3BD4B4953C45EF283A32E /* NSURLSessionConfiguration+Wormholy.h in Headers */,
+				0D7A22E09AC63AB59232F983E0345651 /* Wormholy-umbrella.h in Headers */,
+				6313B08F94D020A78F7F5FCA6AA795F6 /* Wormholy.h in Headers */,
+				93353EB74ECEA533C2C90DFA9E2FA1AF /* WormholyMethodSwizzling.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD25C61E0F055769F2348E03B6864159 /* Headers */ = {
+		654F571B85589978C99AC899A31E9ED4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078236551C81F58F3F46B6A3BCA8AA8A /* NSURLSessionConfiguration+Wormholy.h in Headers */,
-				5E4DB5D2492EAD59B788483D2F9A9EB9 /* Wormholy-umbrella.h in Headers */,
-				E89D3D5A932B617B6F079B4D9BA05623 /* Wormholy.h in Headers */,
-				CCE7D70B209E3A309E4424FB74315674 /* WormholyMethodSwizzling.h in Headers */,
+				21DEEF453B1F49AABBBFE6286D08C316 /* Pods-MapBoxExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED5DA84B774EBA15F7EFC4C5BC09B477 /* Headers */ = {
+		B8127FA771B8A3B6C2DAC21A30064B27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE3C48A73A18112F53E5984D49445A82 /* CLLocation+MMEMobileEvents.h in Headers */,
-				1FBCFEFCE836BC7E33B04F53ECAFB338 /* CLLocationManager+MMEMobileEvents.h in Headers */,
-				157F2C2CC60DA0F032FB71BA858A65FE /* MapboxMobileEvents-umbrella.h in Headers */,
-				243C6BBC9414ACD839B920D7C425313B /* MapboxMobileEvents.h in Headers */,
-				F62454E4C009C72EC30DFF27BE434968 /* MMEAPIClient.h in Headers */,
-				0825042BA58E1F12210BA4F074A5EE91 /* MMEAPIClient_Private.h in Headers */,
-				7A92F9510DD5161202A7F3193C308969 /* MMECategoryLoader.h in Headers */,
-				D94A06D29D1B2462A12EBE4CAA31FB61 /* MMECertPin.h in Headers */,
-				B0661718BF1F20D5705D537C30D253BE /* MMECommonEventData.h in Headers */,
-				B5480E9BA99AA8B48C8CACB8F7329ECD /* MMEConstants.h in Headers */,
-				B9DA9E144BE9964C3C9B98EB017D6E39 /* MMEDate.h in Headers */,
-				8325643DD10E5F1509B50DF00E67096B /* MMEDependencyManager.h in Headers */,
-				71B13197A516EE3FEE5E8FD386728B47 /* MMEDispatchManager.h in Headers */,
-				5C76749E1B4C2BBF47743C525C8C217B /* MMEEvent.h in Headers */,
-				F694C331E7DD3134ECA0459F84C6E867 /* MMEEventLogger.h in Headers */,
-				A24B769BE52B4B8C31BB252CABD03FBA /* MMEEventsManager.h in Headers */,
-				AA55C40D1584F5BA0B3A6196DF08B5F7 /* MMEEventsManager_Private.h in Headers */,
-				8E34E72241B747897B5978EA6EF48332 /* MMELocationManager.h in Headers */,
-				851DDB9023A92AC982057EC2287F4384 /* MMEMetrics.h in Headers */,
-				128CB9D4A424C89CFFD7821817A3E1BE /* MMEMetricsManager.h in Headers */,
-				06D5ECBB8E13CC4BEDCCFE96523A42C4 /* MMENSURLSessionWrapper.h in Headers */,
-				DB97429B37ADFCE0E84CE592879CCDE5 /* MMEReachability.h in Headers */,
-				EAC9A65362C4B74A410AE415081F5876 /* MMETimerManager.h in Headers */,
-				3583290162D64D1AE5A620C2C237B1F2 /* MMETypes.h in Headers */,
-				2865245E928B8F22120008B3A56CA017 /* MMEUIApplicationWrapper.h in Headers */,
-				9E9A237C44BCB70ACD2836E0F0CB7890 /* MMEUniqueIdentifier.h in Headers */,
-				38741F7BB64295C41D0A135929986880 /* NSBundle+MMEMobileEvents.h in Headers */,
-				8FD53E073DD4912CF7215207BC9B3416 /* NSData+MMEGZIP.h in Headers */,
-				CFD3197037F2A63A5E46E01C1B8F90F0 /* NSProcessInfo+SystemInfo.h in Headers */,
-				796965A91CE09BBBC41C2EBF498FD7E2 /* NSString+MMEVersions.h in Headers */,
-				D4E08D47F40769850BB13518EEA2A48A /* NSUserDefaults+MMEConfiguration.h in Headers */,
-				EE459F6E6A8BE942A226743F4E39D00B /* NSUserDefaults+MMEConfiguration_Private.h in Headers */,
-				1BCBCDD15B82CED106F4C2E223AC29D4 /* UIKit+MMEMobileEvents.h in Headers */,
+				5D0D43BB29FBCDD22237A6BA9438B1B5 /* CLLocation+MMEMobileEvents.h in Headers */,
+				7213848EF03817D8181EB636CC7FE9B9 /* CLLocationManager+MMEMobileEvents.h in Headers */,
+				A4F34449FEBDAECBDA468F5E9B5DEC19 /* MapboxMobileEvents-umbrella.h in Headers */,
+				39E210D0D2A02BD59D5FE8E37C6C2BF1 /* MapboxMobileEvents.h in Headers */,
+				8733BF04857324C7DC346C7CC31396AF /* MMEAPIClient.h in Headers */,
+				7CC63057858479B01A3016FA8729C99A /* MMEAPIClient_Private.h in Headers */,
+				CA388816021399FC9D5224084BDD7FB3 /* MMECategoryLoader.h in Headers */,
+				436D48FA0C6019B0A5048CAC9FA59F32 /* MMECertPin.h in Headers */,
+				F439751A43ED3ABAC8B0BBDB654839A8 /* MMECommonEventData.h in Headers */,
+				D2C5B88D20CBC955604AF235D867EFDD /* MMEConstants.h in Headers */,
+				346A2612A0A455BEBDFB00C63D296053 /* MMEDate.h in Headers */,
+				4C0935905FA059C047B201DF4AC888F5 /* MMEDependencyManager.h in Headers */,
+				2A4250C638EE302B2BB8FC35EAA53A47 /* MMEDispatchManager.h in Headers */,
+				E16A82D969828BC0E627CEFF78F788B1 /* MMEEvent.h in Headers */,
+				741A5727E076A9AA23A47C11800C4CFE /* MMEEventLogger.h in Headers */,
+				C66CDEFF74946BD98EF6FF9613AB71A7 /* MMEEventsManager.h in Headers */,
+				4654FCA40A5BF568A8976B747731D53A /* MMEEventsManager_Private.h in Headers */,
+				AC762471A1B71251E53E29130760EBB9 /* MMELocationManager.h in Headers */,
+				FFAF3B4BA983DA82FE9027466E5DE611 /* MMEMetrics.h in Headers */,
+				203EB7440DE80C314E9FDB3D46E8052C /* MMEMetricsManager.h in Headers */,
+				53458842E37436FA08AE11A5C13ABD8C /* MMENSURLSessionWrapper.h in Headers */,
+				73839C2245D69432E086925708B9096A /* MMEReachability.h in Headers */,
+				66E8399640AFA23BD1737E34C004CF4E /* MMETimerManager.h in Headers */,
+				E387008B5C651A1A137A88A90C7036D3 /* MMETypes.h in Headers */,
+				825C907E0EE078BBCB0833FA273361F5 /* MMEUIApplicationWrapper.h in Headers */,
+				21CA20D8D1F1FE4DBED8351C5FBC1C0C /* MMEUniqueIdentifier.h in Headers */,
+				038BCC16571186A625DE47B12BE9D0E8 /* NSBundle+MMEMobileEvents.h in Headers */,
+				A2E4DE2B8C331EFDF70201E2C94486B1 /* NSData+MMEGZIP.h in Headers */,
+				B9A9D73A1A496339861CF6D0D1B37C55 /* NSProcessInfo+SystemInfo.h in Headers */,
+				D800BA39B4569AA978719FAA9E5683A6 /* NSString+MMEVersions.h in Headers */,
+				17FA0E09C1AFF6A5E162C5EAF4E2F6E8 /* NSUserDefaults+MMEConfiguration.h in Headers */,
+				9A110FEE7855F9E2FD18EA7B23DACFF8 /* NSUserDefaults+MMEConfiguration_Private.h in Headers */,
+				1438661D882DEC5CE7018245A15E0983 /* UIKit+MMEMobileEvents.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,19 +680,19 @@
 /* Begin PBXNativeTarget section */
 		0D893199C00604A75B5E222CD09E07B7 /* Pods-MapBoxExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 222DE647AD774F13AFEB141F90819698 /* Build configuration list for PBXNativeTarget "Pods-MapBoxExample" */;
+			buildConfigurationList = 9899D1F5BFE6FFEB4B5E856A6E725F53 /* Build configuration list for PBXNativeTarget "Pods-MapBoxExample" */;
 			buildPhases = (
-				9BC1599F4F1071876B7AE455940A7C5C /* Headers */,
-				2216F12E40C31C265116465F3E900F18 /* Sources */,
-				585B4AF05A610D7507FF3C07226DE9A4 /* Frameworks */,
-				C934F5EBA8CE79D97C66CF6AD7E0EC31 /* Resources */,
+				654F571B85589978C99AC899A31E9ED4 /* Headers */,
+				AAB9EFAB4C11B845ADB7414F2BF0EDEC /* Sources */,
+				AE76E819DB8B0300684AE5878FA9E28D /* Frameworks */,
+				7446E93186F1B7465D49CFE54CB4AFE5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				330A4310BB79C0AE0B881E3794825046 /* PBXTargetDependency */,
-				3D195A06DE4D3541B966DE11F04F182F /* PBXTargetDependency */,
-				23CF09B8C9D2E13AD21672A5C532F06A /* PBXTargetDependency */,
+				832FE38C1488EF6CEF54A76E7536724B /* PBXTargetDependency */,
+				3AB8F51C4DD8C3541A178D5EA5C44DC9 /* PBXTargetDependency */,
+				0694D994AA36FDED4452512E05ECFF74 /* PBXTargetDependency */,
 			);
 			name = "Pods-MapBoxExample";
 			productName = "Pods-MapBoxExample";
@@ -701,17 +701,17 @@
 		};
 		3E73ED39761329414C06DD4486C5058E /* Wormholy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78510C8B5C536411A03B9489EB23B9DC /* Build configuration list for PBXNativeTarget "Wormholy" */;
+			buildConfigurationList = C47553CC02994F16FD020AF9929A4466 /* Build configuration list for PBXNativeTarget "Wormholy" */;
 			buildPhases = (
-				CD25C61E0F055769F2348E03B6864159 /* Headers */,
-				F926441DB36F17A5D9935F165C54E6C7 /* Sources */,
-				245156428B5F1845B16C30D9DDE0FDA0 /* Frameworks */,
-				190F60DFC2E99BC7B0A645696193CB55 /* Resources */,
+				380A69BDFBCA512C9158B85AA1A8546B /* Headers */,
+				A2E3551550C71D5D1DB3DD6F29B77150 /* Sources */,
+				F95C96200F8157223C91C5A0DA21C4A7 /* Frameworks */,
+				91004C9BF8AF50DA2007A674631410C6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C535D9255971634A1FA2032C243F7CFB /* PBXTargetDependency */,
+				C0A5A02C89E8FDCDAEAB1F225BF03418 /* PBXTargetDependency */,
 			);
 			name = Wormholy;
 			productName = Wormholy;
@@ -720,11 +720,11 @@
 		};
 		93CEC7FFB57A497DE49471C5D9517C13 /* Wormholy-Wormholy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9EFDF8B518CA5665245A591E86A79FA /* Build configuration list for PBXNativeTarget "Wormholy-Wormholy" */;
+			buildConfigurationList = 3B36AB0DF88548086433832A975F382F /* Build configuration list for PBXNativeTarget "Wormholy-Wormholy" */;
 			buildPhases = (
-				03391249BF14B51466F590DD83D1FAE3 /* Sources */,
-				B48F099EAD71F46FE88A4628279F56B1 /* Frameworks */,
-				2C15AB88DB4FAE8A3A20BB314CE08941 /* Resources */,
+				A45A8513A1A048C320D791358BDFB4CF /* Sources */,
+				3F4571B7DE483E7861AAB1DFD37F141E /* Frameworks */,
+				6C57C3D8E02AA9125D6532CC2CAAF41C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -737,12 +737,12 @@
 		};
 		F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDB07C907CA5DE84E11225D277A8756B /* Build configuration list for PBXNativeTarget "MapboxMobileEvents" */;
+			buildConfigurationList = C0F323BA1A339C93776C862E2A115BA3 /* Build configuration list for PBXNativeTarget "MapboxMobileEvents" */;
 			buildPhases = (
-				ED5DA84B774EBA15F7EFC4C5BC09B477 /* Headers */,
-				0A0323316C469E18CD8609B129FCD7CB /* Sources */,
-				193ADCDBCB9CB3F69649A8357E352292 /* Frameworks */,
-				F4D4455110F6D7DD6F1D8824F80CD08F /* Resources */,
+				B8127FA771B8A3B6C2DAC21A30064B27 /* Headers */,
+				4376462BBDF5AC81EEE870A8F0ED551E /* Sources */,
+				CA66210773CF83F04FFA72F37E314361 /* Frameworks */,
+				39B126DD01021E4BC6115FB51B008AF1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -785,168 +785,168 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		190F60DFC2E99BC7B0A645696193CB55 /* Resources */ = {
+		39B126DD01021E4BC6115FB51B008AF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AEF62950B3F7A456ED7C2229BBD1BF4 /* Wormholy.bundle in Resources */,
+				0C21529EEBA457F5A74B9C9728A89200 /* logger.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C15AB88DB4FAE8A3A20BB314CE08941 /* Resources */ = {
+		6C57C3D8E02AA9125D6532CC2CAAF41C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9225A9F3718262A83BB2FAC513AEEFD5 /* ActionableTableViewCell.xib in Resources */,
-				EDBCDD4B2821D2D795778385F8C732A0 /* Flow.storyboard in Resources */,
-				4343094E47ECC54F18716AD966AC0429 /* RequestCell.xib in Resources */,
-				CDA38047517DB202A4A95862878748E3 /* RequestTitleSectionView.xib in Resources */,
-				330CF23E24E1BF0928910BA19471DBA2 /* TextTableViewCell.xib in Resources */,
+				6977F45CBA9EE9DE62015711CF893091 /* ActionableTableViewCell.xib in Resources */,
+				C1EB73707E999475AEEFC01A90E546BB /* Flow.storyboard in Resources */,
+				1C7A39DE5F54AAF2FF0C52FE1ED26104 /* RequestCell.xib in Resources */,
+				65E9E5F42454D620F4951C116B4CD2D4 /* RequestTitleSectionView.xib in Resources */,
+				5A4913EF19C6FC82BC503EEF201F5D98 /* TextTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C934F5EBA8CE79D97C66CF6AD7E0EC31 /* Resources */ = {
+		7446E93186F1B7465D49CFE54CB4AFE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4D4455110F6D7DD6F1D8824F80CD08F /* Resources */ = {
+		91004C9BF8AF50DA2007A674631410C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4E40A0FB29B48EBE429DCFE41A56C6 /* logger.html in Resources */,
+				32D358C11D5E7072821CE62B0E2A8D7C /* Wormholy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03391249BF14B51466F590DD83D1FAE3 /* Sources */ = {
+		4376462BBDF5AC81EEE870A8F0ED551E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28229A69D2DEA352704512D0A846FDB9 /* CLLocation+MMEMobileEvents.m in Sources */,
+				28CEB4B09C493ED854EE47080DC73A07 /* CLLocationManager+MMEMobileEvents.m in Sources */,
+				B3C8BA6A268FC0247ECF485000E903E2 /* MapboxMobileEvents-dummy.m in Sources */,
+				ADA6FEB177C206FFE151B22EE91594D5 /* MMEAPIClient.m in Sources */,
+				6950E26D7E66E8E02CE77B584902C55F /* MMECategoryLoader.m in Sources */,
+				9056D4DBC8A824F823A3CCE004507D26 /* MMECertPin.m in Sources */,
+				15AF8E4DA4A95AB93D50D15EC737CAD9 /* MMECommonEventData.m in Sources */,
+				BD1D2AEA53DABCBA825D9AB7FE05DEBC /* MMEConstants.m in Sources */,
+				5EC2458559FAC5EA1910AFDBE5AAED3E /* MMEDate.m in Sources */,
+				2838D4CBF23F1AAA88BE0483AD52E603 /* MMEDependencyManager.m in Sources */,
+				342A6DB90B627091C8FCAA15A40BDA1A /* MMEDispatchManager.m in Sources */,
+				35A98E7D97E1779F3FE3BFC80DFE8EFE /* MMEEvent.m in Sources */,
+				2C17CCB9618AF589FB439E376F54D7E4 /* MMEEventLogger.m in Sources */,
+				09EDC5141C39FCF40D01DAF31DB3D6F2 /* MMEEventsManager.m in Sources */,
+				93BFCC099A964DB4ECB6B2B792017726 /* MMELocationManager.m in Sources */,
+				B3F411644D4CECB598474864E2F17C6D /* MMEMetrics.m in Sources */,
+				4AC9A377D21413E1FA70203BEB00A229 /* MMEMetricsManager.m in Sources */,
+				E2EFDC465F0D43501B45468FC25DDF8F /* MMENSURLSessionWrapper.m in Sources */,
+				34CA2C555D8D14BDCB714F55D8BE9666 /* MMEReachability.m in Sources */,
+				963EE3AA5AFC92459F902BF92F101AB9 /* MMETimerManager.m in Sources */,
+				B990E7D32A098EE1804907EF3B242A98 /* MMEUIApplicationWrapper.m in Sources */,
+				A6F17978BCB55C4F83388E5BA9627E8E /* MMEUniqueIdentifier.m in Sources */,
+				4A6B3C35353C8874A93DFBDACE7A87D1 /* NSBundle+MMEMobileEvents.m in Sources */,
+				1DBAD28DC67BD5D9BA5EE0D3AEA7E8BD /* NSData+MMEGZIP.m in Sources */,
+				B42C0A5FC29585AA89B0AC99166458E0 /* NSProcessInfo+SystemInfo.m in Sources */,
+				A60DC416C26E18703CD34125E3984973 /* NSString+MMEVersions.m in Sources */,
+				C26C1093CE718749411A0177B681B401 /* NSUserDefaults+MMEConfiguration.m in Sources */,
+				474A1A011415029E2E6AD365561DD715 /* UIKit+MMEMobileEvents.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E3551550C71D5D1DB3DD6F29B77150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA932D3A7746268A0529467044F0BE7 /* ActionableTableViewCell.swift in Sources */,
+				DEAFC2402A0F5FDA58F22443F3EBC889 /* BodyDetailViewController.swift in Sources */,
+				C14594793F1BCBA13028A846AA286427 /* Colors.swift in Sources */,
+				52BB59CE6A9BEC8EF6EDE58DE1CD2EB7 /* Config.swift in Sources */,
+				736FCF104E1E9EA01D6D3F19551ECCC2 /* CustomActivity.swift in Sources */,
+				4502361B13917CFCDFF82F6D1C573AD4 /* CustomHTTPProtocol.swift in Sources */,
+				EDFB960E0B68289F407ADE7CFE046CB9 /* FileHandler.swift in Sources */,
+				55EDBF1FAAB70B3CE031119F9B0CB03D /* NSURLSessionConfiguration+Wormholy.m in Sources */,
+				93C0DE2E26A8135B8AA01AFF00352D77 /* Postman.swift in Sources */,
+				7F49C003B9F5B705A1C68B2D5AF69DCD /* RequestCell.swift in Sources */,
+				00BC5249B3F5CB6CE92652B8D49013D4 /* RequestDetailViewController.swift in Sources */,
+				5E4B0027B8715997BA31595366F91CD9 /* RequestModel.swift in Sources */,
+				39EAD3769D79BE07D23F22D2FE553300 /* RequestModelBeautifier.swift in Sources */,
+				B954314483BBAC5CF026EECEA15D3774 /* RequestResponseExportOption.swift in Sources */,
+				1BE43CC6305DC71D736CCC22E32C1B6B /* RequestsViewController.swift in Sources */,
+				A5602A4319A8135EDE171F380DA07D0C /* RequestTitleSectionView.swift in Sources */,
+				BE3A31B6C04FFABD04276890811F94AE /* Section.swift in Sources */,
+				7F418B495B58B1C0CE46D144DD690D5C /* ShareUtils.swift in Sources */,
+				E36FE8DB583959D61E4504C290C90AE3 /* Storage.swift in Sources */,
+				7DC33EF8585EBA593112468B51D88870 /* SwiftySelfAwareHelper.swift in Sources */,
+				8E88A1CF57AD6624592F0BA7050C54C4 /* TextTableViewCell.swift in Sources */,
+				64A0CDA4530D07CB2F2309907AF7A0C7 /* WHBaseViewController.swift in Sources */,
+				5AC0710137F4DBFB7D67F706B3DCDF81 /* WHBundle.swift in Sources */,
+				C81F5D3D9A307F48161193A3397C8181 /* WHCollectionView.swift in Sources */,
+				2561C63998804EFF251430F7D83E074B /* WHDate.swift in Sources */,
+				5497EE3D82F62D66A3D047BF4D27321C /* WHLabel.swift in Sources */,
+				608C2E2C7996272D230C9A0B3FB203A1 /* WHNavigationController.swift in Sources */,
+				A2AB7DE9E054E2EE51D780F61284270D /* WHString.swift in Sources */,
+				1E57A8DD026764379A92B842FFEBFD69 /* WHTableView.swift in Sources */,
+				7DA4285386B611C24DCEBC4EBBE4978D /* WHTextView.swift in Sources */,
+				64345DE0DD15565273D4C5B0DC5FA63D /* WHView.swift in Sources */,
+				79977B424E6F817083461E4BFFBEE10E /* Wormholy-dummy.m in Sources */,
+				E877B61F3D904B4457044015D6489F6F /* Wormholy.swift in Sources */,
+				E0547EAB797D2D20A2ECF39C2D9E55A3 /* WormholyMethodSwizzling.m in Sources */,
+				AEBC0C59E1B77CAD7C5677D53606A457 /* WormholyStarterEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45A8513A1A048C320D791358BDFB4CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A0323316C469E18CD8609B129FCD7CB /* Sources */ = {
+		AAB9EFAB4C11B845ADB7414F2BF0EDEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF805757E783824B995D27FC798BF75 /* CLLocation+MMEMobileEvents.m in Sources */,
-				8A7F0C7C73E66AB93E18F8C9C2AF67F0 /* CLLocationManager+MMEMobileEvents.m in Sources */,
-				18D60B06B9E2188373D4C11F173075B4 /* MapboxMobileEvents-dummy.m in Sources */,
-				B870F13AAEDA73A59EA2C38467FEECBF /* MMEAPIClient.m in Sources */,
-				03B521785319137EB73E2D58EB12770E /* MMECategoryLoader.m in Sources */,
-				A8ABA632F42B9C3985F2884FB02BF89C /* MMECertPin.m in Sources */,
-				BF6299E1F137B79E0F51C12D63C7CAC5 /* MMECommonEventData.m in Sources */,
-				E896B9B593FFADC1D3C092ED49A7A310 /* MMEConstants.m in Sources */,
-				7FD1F53834C39FCCE615777EA891715A /* MMEDate.m in Sources */,
-				2AD21DDD319D13E41C603AE60ED1479E /* MMEDependencyManager.m in Sources */,
-				39852FCE6D799DE85725A225001E8ED5 /* MMEDispatchManager.m in Sources */,
-				12B88C41295EB6AF91E7654BEBBECDAF /* MMEEvent.m in Sources */,
-				64E80B7BD2EDC24FC2889A73699376AC /* MMEEventLogger.m in Sources */,
-				D8D8C948980C054F97CC87C7C1A8669A /* MMEEventsManager.m in Sources */,
-				F00F035838FD495E56A54D1A1DE0AF7D /* MMELocationManager.m in Sources */,
-				F758C240DF41E6858DDD9B181E66D855 /* MMEMetrics.m in Sources */,
-				6790FB1632A159710D192AEE090D3239 /* MMEMetricsManager.m in Sources */,
-				622E8A170D9EA67F39B56897A63FDCE1 /* MMENSURLSessionWrapper.m in Sources */,
-				F121225FCBB82BAA07F5CC3ACFC2A91B /* MMEReachability.m in Sources */,
-				F2592CD3820BC3045F14676D0F7E22DE /* MMETimerManager.m in Sources */,
-				76CFEE63A574D527C8A404A403CF3DCF /* MMEUIApplicationWrapper.m in Sources */,
-				34A040D70CF5892E7B80E9D06CF04661 /* MMEUniqueIdentifier.m in Sources */,
-				3DDCD6D09C0A17222A74962F6A3867E4 /* NSBundle+MMEMobileEvents.m in Sources */,
-				D06F98F3C1AC1C7A99871725735C5F1F /* NSData+MMEGZIP.m in Sources */,
-				B67B847DF4AC2DBF2B86C326E960D3D2 /* NSProcessInfo+SystemInfo.m in Sources */,
-				AB3974EE97F7019FBE5438881091BC7A /* NSString+MMEVersions.m in Sources */,
-				68B539E35D484EB49991E6AC4984A415 /* NSUserDefaults+MMEConfiguration.m in Sources */,
-				A77939093D7C273BDC8A2D1312266A22 /* UIKit+MMEMobileEvents.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2216F12E40C31C265116465F3E900F18 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87E2A32D57B0174D029AF3D1D0DB628A /* Pods-MapBoxExample-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F926441DB36F17A5D9935F165C54E6C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				207CD717476EDAD004CD430BE45319F6 /* ActionableTableViewCell.swift in Sources */,
-				75C9459CB1D868E4ECFFC1F3A4A155DD /* BodyDetailViewController.swift in Sources */,
-				779BB62C526078F6EFF5C64337D18AF0 /* Colors.swift in Sources */,
-				BE2ED8C1816CBA68965818AA05251B7A /* Config.swift in Sources */,
-				3248C2BE5A0AD8305E670B97F3AFA6D9 /* CustomActivity.swift in Sources */,
-				73CA9004F62FAECD7EECC2637A348B9A /* CustomHTTPProtocol.swift in Sources */,
-				39ECE49E0950B0E97C025D2010354F61 /* FileHandler.swift in Sources */,
-				5B6BF5242C48EF3781F4C53F66C9976B /* NSURLSessionConfiguration+Wormholy.m in Sources */,
-				884B9D7F8CBF873E07175607B41B1ED8 /* Postman.swift in Sources */,
-				E2A0075BD1238BEE18C2D4900CB65D39 /* RequestCell.swift in Sources */,
-				C12BD69B116DAFF12C5278725B8958E6 /* RequestDetailViewController.swift in Sources */,
-				1F043C11614302B1EA3921BFBAB0FAD7 /* RequestModel.swift in Sources */,
-				F9D74374BA37D17FE90C00A7AC50A097 /* RequestModelBeautifier.swift in Sources */,
-				39F2954B12932B378ADECA104C3E6212 /* RequestResponseExportOption.swift in Sources */,
-				C8BF0EF6438BEDC40255C02F8749D997 /* RequestsViewController.swift in Sources */,
-				FC087825CBC01F9D3625BFA91C313255 /* RequestTitleSectionView.swift in Sources */,
-				00398402266671075C13C34FDCD68861 /* Section.swift in Sources */,
-				937DAF2EC9B6139ACCACA71EB44961B7 /* ShareUtils.swift in Sources */,
-				056FEA2059E6EAE466DBB146170F4858 /* Storage.swift in Sources */,
-				9FAA4008D28B106588079B9CBAF87637 /* SwiftySelfAwareHelper.swift in Sources */,
-				A3221CF130670DD9D10673641BFC0C86 /* TextTableViewCell.swift in Sources */,
-				84C9C4BE5B0FA19B866DC2EF4EB61916 /* WHBaseViewController.swift in Sources */,
-				50E4C42496BC7DC4CB1C980E6225CADA /* WHBundle.swift in Sources */,
-				A61D460627D636359755760E2AF8679C /* WHCollectionView.swift in Sources */,
-				E86AE2329261361BDCC03223CC054CBD /* WHDate.swift in Sources */,
-				B4A9AF482A39076D446F52CF32D73328 /* WHLabel.swift in Sources */,
-				63DED26E6B53F683A07EB23E857C431E /* WHNavigationController.swift in Sources */,
-				4003F7DC298A54ACBD54B01BA6132C25 /* WHString.swift in Sources */,
-				1F758DF78197B186C3D3DF23DDAF757F /* WHTableView.swift in Sources */,
-				E372694B779ACA350306CF09E89E1442 /* WHTextView.swift in Sources */,
-				05D7ABFB3BA54510B04546AB98694A54 /* WHView.swift in Sources */,
-				A5FF13CBFB4E7ED8837C3E3A4ED1CED4 /* Wormholy-dummy.m in Sources */,
-				43CE26A07946EEC32622989EECC2A0CE /* Wormholy.swift in Sources */,
-				BCF120D39E86DD164E609C896A93CB2C /* WormholyMethodSwizzling.m in Sources */,
-				E373E37FCBD917D813C0F0011665C28F /* WormholyStarterEngine.m in Sources */,
+				8977C5A2815FE530A8DDEE0A743BCBD3 /* Pods-MapBoxExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		23CF09B8C9D2E13AD21672A5C532F06A /* PBXTargetDependency */ = {
+		0694D994AA36FDED4452512E05ECFF74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Wormholy;
 			target = 3E73ED39761329414C06DD4486C5058E /* Wormholy */;
-			targetProxy = C7FD3F900D210426874546D75C34E840 /* PBXContainerItemProxy */;
+			targetProxy = 19454DFE6024EF33EE91375BA132E3E6 /* PBXContainerItemProxy */;
 		};
-		2ACC5AB568865CE57B479E1126489039 /* PBXTargetDependency */ = {
+		3AB8F51C4DD8C3541A178D5EA5C44DC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MapboxMobileEvents;
 			target = F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */;
-			targetProxy = 608EE8617FFD494B9586AAEB3E556B49 /* PBXContainerItemProxy */;
+			targetProxy = CD584712444C377DF8292A22AC81364D /* PBXContainerItemProxy */;
 		};
-		330A4310BB79C0AE0B881E3794825046 /* PBXTargetDependency */ = {
+		4AFD188EE99AEA09B07FA0CDA548F713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapboxMobileEvents;
+			target = F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */;
+			targetProxy = 5E308E2DF90AA1188053D7E3B411657F /* PBXContainerItemProxy */;
+		};
+		832FE38C1488EF6CEF54A76E7536724B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Mapbox-iOS-SDK";
 			target = 6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */;
-			targetProxy = DA42D6E0D45F4A2E1E4D3495E0A70B0B /* PBXContainerItemProxy */;
+			targetProxy = 9D458DC729D5938B3DE97B1A10D98CF2 /* PBXContainerItemProxy */;
 		};
-		3D195A06DE4D3541B966DE11F04F182F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MapboxMobileEvents;
-			target = F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */;
-			targetProxy = 493EEE5E052D44E670D6DED67B42CD8A /* PBXContainerItemProxy */;
-		};
-		C535D9255971634A1FA2032C243F7CFB /* PBXTargetDependency */ = {
+		C0A5A02C89E8FDCDAEAB1F225BF03418 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Wormholy-Wormholy";
 			target = 93CEC7FFB57A497DE49471C5D9517C13 /* Wormholy-Wormholy */;
-			targetProxy = 1A6292298F5386015C9608E7E3A39AC0 /* PBXContainerItemProxy */;
+			targetProxy = 6EBF52598FDC86360975694B61DD07FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1011,79 +1011,24 @@
 			};
 			name = Release;
 		};
-		3181EE4E3552F21CC18411FAC236D34B /* Debug */ = {
+		2E3DDFF9A800A653FE233192A4213548 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4009EC318237C12C5011130924337A5A /* Pods-MapBoxExample.debug.xcconfig */;
+			baseConfigurationReference = E7291AF104E9ED4A04D2445329FA1800 /* Wormholy.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MapBoxExample/Pods-MapBoxExample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MapBoxExample/Pods-MapBoxExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Wormholy";
+				IBSC_MODULE = Wormholy;
+				INFOPLIST_FILE = "Target Support Files/Wormholy/ResourceBundle-Wormholy-Wormholy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Wormholy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		4550700699BE16A87090969B946E60F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 860CCD3855194884FA7676E26DD29111 /* MapboxMobileEvents.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents.modulemap";
-				PRODUCT_MODULE_NAME = MapboxMobileEvents;
-				PRODUCT_NAME = MapboxMobileEvents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		53118EC6B95078DC43EF98D122FD8A28 /* Release */ = {
+		5E401BD5EBF82C28423CC45E5F9D73AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E7291AF104E9ED4A04D2445329FA1800 /* Wormholy.release.xcconfig */;
 			buildSettings = {
@@ -1119,24 +1064,42 @@
 			};
 			name = Release;
 		};
-		5585B3ED73F5CD6D1FA96C19208C9D39 /* Release */ = {
+		6814360C1AAD8D3FE590C05E24457789 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7291AF104E9ED4A04D2445329FA1800 /* Wormholy.release.xcconfig */;
+			baseConfigurationReference = 43CB40C818061B8614E48B3045A6DF77 /* Wormholy.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Wormholy";
-				IBSC_MODULE = Wormholy;
-				INFOPLIST_FILE = "Target Support Files/Wormholy/ResourceBundle-Wormholy-Wormholy-Info.plist";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Wormholy/Wormholy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Wormholy/Wormholy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Wormholy/Wormholy.modulemap";
+				PRODUCT_MODULE_NAME = Wormholy;
 				PRODUCT_NAME = Wormholy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		5F8E78717AA1CE61588BBBFAB9177931 /* Release */ = {
+		6B7B28F874369FA6473A8329E94F348A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 59FADB855644AEC5E52E9C232F777EEE /* Pods-MapBoxExample.release.xcconfig */;
 			buildSettings = {
@@ -1175,58 +1138,7 @@
 			};
 			name = Release;
 		};
-		6BCD742170572CFF8488BD4D1517A162 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43CB40C818061B8614E48B3045A6DF77 /* Wormholy.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Wormholy/Wormholy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Wormholy/Wormholy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Wormholy/Wormholy.modulemap";
-				PRODUCT_MODULE_NAME = Wormholy;
-				PRODUCT_NAME = Wormholy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7346D9C302B87B1557BDA7CB01513E6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4234EC451A9FD3C88727DB3F7065712B /* Mapbox-iOS-SDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B13A6132779C011CC56EFD1BC2949ECD /* Release */ = {
+		7004287D75921BEF6445AC9F427EA9DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3574CD44B747037B3714A18FE83986EC /* Mapbox-iOS-SDK.release.xcconfig */;
 			buildSettings = {
@@ -1243,7 +1155,7 @@
 			};
 			name = Release;
 		};
-		D315D20C2FF5A01B831A129D573A933D /* Debug */ = {
+		76FB6C6F62865A4AF1E723B78DE917A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43CB40C818061B8614E48B3045A6DF77 /* Wormholy.debug.xcconfig */;
 			buildSettings = {
@@ -1259,6 +1171,129 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		9F0C5124B3B032BE0920BB4A5BA47D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860CCD3855194884FA7676E26DD29111 /* MapboxMobileEvents.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents.modulemap";
+				PRODUCT_MODULE_NAME = MapboxMobileEvents;
+				PRODUCT_NAME = MapboxMobileEvents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFF6EE1AAED1F892D6BD28F2ECCB4DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4009EC318237C12C5011130924337A5A /* Pods-MapBoxExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MapBoxExample/Pods-MapBoxExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapBoxExample/Pods-MapBoxExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDD6BF1E506433F15EB76B66052891E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4234EC451A9FD3C88727DB3F7065712B /* Mapbox-iOS-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1378DAFCF4B8BD3CAE693F725D86A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654E5286DF534EFE71F2CD5E906A1F1B /* MapboxMobileEvents.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents.modulemap";
+				PRODUCT_MODULE_NAME = MapboxMobileEvents;
+				PRODUCT_NAME = MapboxMobileEvents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1324,49 +1359,14 @@
 			};
 			name = Debug;
 		};
-		FD3F97F1BC7F64249E64913BBBFDBCC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 654E5286DF534EFE71F2CD5E906A1F1B /* MapboxMobileEvents.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents.modulemap";
-				PRODUCT_MODULE_NAME = MapboxMobileEvents;
-				PRODUCT_NAME = MapboxMobileEvents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		222DE647AD774F13AFEB141F90819698 /* Build configuration list for PBXNativeTarget "Pods-MapBoxExample" */ = {
+		3B36AB0DF88548086433832A975F382F /* Build configuration list for PBXNativeTarget "Wormholy-Wormholy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3181EE4E3552F21CC18411FAC236D34B /* Debug */,
-				5F8E78717AA1CE61588BBBFAB9177931 /* Release */,
+				76FB6C6F62865A4AF1E723B78DE917A6 /* Debug */,
+				2E3DDFF9A800A653FE233192A4213548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1380,38 +1380,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78510C8B5C536411A03B9489EB23B9DC /* Build configuration list for PBXNativeTarget "Wormholy" */ = {
+		9899D1F5BFE6FFEB4B5E856A6E725F53 /* Build configuration list for PBXNativeTarget "Pods-MapBoxExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BCD742170572CFF8488BD4D1517A162 /* Debug */,
-				53118EC6B95078DC43EF98D122FD8A28 /* Release */,
+				CFF6EE1AAED1F892D6BD28F2ECCB4DE0 /* Debug */,
+				6B7B28F874369FA6473A8329E94F348A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9EFDF8B518CA5665245A591E86A79FA /* Build configuration list for PBXNativeTarget "Wormholy-Wormholy" */ = {
+		AA65CBFA2A2732AAB24EDD2834480AB8 /* Build configuration list for PBXAggregateTarget "Mapbox-iOS-SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D315D20C2FF5A01B831A129D573A933D /* Debug */,
-				5585B3ED73F5CD6D1FA96C19208C9D39 /* Release */,
+				DDD6BF1E506433F15EB76B66052891E7 /* Debug */,
+				7004287D75921BEF6445AC9F427EA9DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDB07C907CA5DE84E11225D277A8756B /* Build configuration list for PBXNativeTarget "MapboxMobileEvents" */ = {
+		C0F323BA1A339C93776C862E2A115BA3 /* Build configuration list for PBXNativeTarget "MapboxMobileEvents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4550700699BE16A87090969B946E60F7 /* Debug */,
-				FD3F97F1BC7F64249E64913BBBFDBCC2 /* Release */,
+				9F0C5124B3B032BE0920BB4A5BA47D06 /* Debug */,
+				E1378DAFCF4B8BD3CAE693F725D86A91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE661112FC7506F5A836D106198613A3 /* Build configuration list for PBXAggregateTarget "Mapbox-iOS-SDK" */ = {
+		C47553CC02994F16FD020AF9929A4466 /* Build configuration list for PBXNativeTarget "Wormholy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7346D9C302B87B1557BDA7CB01513E6F /* Debug */,
-				B13A6132779C011CC56EFD1BC2949ECD /* Release */,
+				6814360C1AAD8D3FE590C05E24457789 /* Debug */,
+				5E401BD5EBF82C28423CC45E5F9D73AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
