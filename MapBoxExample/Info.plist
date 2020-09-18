@@ -20,13 +20,6 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>MGLIdeographicFontFamilyName</key>
-	<string>IRANSans</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>IRANSans Bold.ttf</string>
-		<string>IRANSans Regular.ttf</string>
-	</array>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

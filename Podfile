@@ -6,7 +6,7 @@ target 'MapBoxExample' do
   use_frameworks!
 
   # Pods for MapBoxExample
-	pod 'Mapbox-iOS-SDK', '~> 6.2.0'
+	pod 'Mapbox-iOS-SDK', '= 6.2.0'
   pod 'Wormholy'
 
 end
